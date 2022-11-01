@@ -19,6 +19,16 @@ for (let i = mainArray.length - 1; i >= 0; i--) {
 // console.log(mainArray);
 
 // find out the particular number :
+// using loop: 
+let specify = [];
+for (const num of mainArray) {
+    console.log("inside loop: ", num);
+  if (num > 30) {
+ specify.push(num);
+  }
+}
+console.log("after loop",specify);
 
+// using array method find: 
 const particularNum = mainArray.find((element) => element > 30);
 console.log(particularNum);
