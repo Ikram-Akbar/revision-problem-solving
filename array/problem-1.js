@@ -11,4 +11,14 @@ let sortedArray = demoArray.sort((ele1, ele2) => {
      return ele2 - ele1 
     */
 });
-console.log(sortedArray);
+// console.log(sortedArray);
+
+
+
+// sum of the array
+let sumOfTheArray = 0;
+
+for (let i = 0; i < demoArray.length; i++) {
+    sumOfTheArray += demoArray[i];
+}
+console.log(sumOfTheArray);
