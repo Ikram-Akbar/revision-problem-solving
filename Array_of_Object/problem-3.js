@@ -13,10 +13,4 @@ const arr2 = [
 ];
 
 let evenNumber = [];
-arr.map((val) => {
-  console.log(val.age % 2 == 0);
-  if (val.age % 2 == 0) {
-    evenNumber.push(val.age)
-  }
-});
-console.log(evenNumber);
+arr.map((val)=>{console.log(val);})
